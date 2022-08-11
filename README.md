@@ -26,16 +26,6 @@ Read a random math-related quote.
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
 ### Deployment
 
 ## Authors
