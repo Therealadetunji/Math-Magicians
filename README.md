@@ -1,26 +1,28 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Math Magicians
 
-> Description the project.
+Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 
+Make simple calculations.
+Read a random math-related quote.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Javascript, CSS
+- React
 
 ## Live Demo (if available)
 
 [Live Demo Link](https://livedemo.com)
 
-
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
+1. Clone the repository: https://github.com/Therealadetunji/Math-Magicians.git on vscode
+2. run npm i
+3. make sure you have version of eslint in the terminal description.
+4. npm run build
+5. npm start
 
 To get a local copy up and running follow these simple example steps.
 
@@ -36,21 +38,12 @@ To get a local copy up and running follow these simple example steps.
 
 ### Deployment
 
-
-
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@therealadetunji](https://github.com/therealadetunji)
+- Twitter: [@madetunji1376](https://twitter.com/tmadetunji1376)
 
 ## 🤝 Contributing
 
