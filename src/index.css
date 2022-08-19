@@ -7,6 +7,10 @@
   gap: 2px;
 }
 
+.Text {
+  margin-top: 20px;
+}
+
 .special {
   background-color: #ff9500;
 }
@@ -47,6 +51,42 @@
 
 .number-span {
   grid-column: span 3;
+}
+
+.top-buttons {
+  height: 40px;
+}
+
+.Navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+  border: 1px solid whitesmoke;
+  background-color: white;
+  color: #000;
+  margin-top: 5px;
+}
+
+.Navbar a {
+  color: #000;
+  text-decoration: none;
+}
+
+.Welcome-page {
+  margin-top: 30px;
+}
+
+.introduction {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  font-weight: 500;
+}
+
+.Quotes {
+  display: flex;
+  margin-top: 20%;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 768%) {
