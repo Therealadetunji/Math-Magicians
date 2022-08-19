@@ -10,4 +10,6 @@ body {
   flex-direction: column;
   font-family: monospace, sans-serif;
   font-weight: 300;
+  background-color: black;
+  color: white;
 }

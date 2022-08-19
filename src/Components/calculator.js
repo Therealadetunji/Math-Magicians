@@ -18,42 +18,49 @@ const Calculator = () => {
   };
   const { total, next, operation } = state;
   return (
-    <div className="myCalculator">
-      <div className="the-whole-box">
-        <div className="calculatorScreen">
-          <span>
-            {total}
+    <div>
+      <div>
+        <h3 className="Text">
+          Lets do some Math
+        </h3>
+      </div>
+      <div className="myCalculator">
+        <div className="the-whole-box">
+          <div className="calculatorScreen">
+            <span>
+              {total}
 
-            {operation}
+              {operation}
 
-            {next}
+              {next}
 
-          </span>
-        </div>
+            </span>
+          </div>
 
-        <div className="calculatorButtons">
-          <button onClick={handleClick} type="button" className="top-buttons" value="AC">AC</button>
-          <button onClick={handleClick} type="button" className="top-buttons">&plusmn;</button>
-          <button onClick={handleClick} type="button" className="top-buttons" value="%">%</button>
-          <button onClick={handleClick} type="button" className="top-buttons special" value="÷">÷</button>
+          <div className="calculatorButtons">
+            <button onClick={handleClick} type="button" className="top-buttons" value="AC">AC</button>
+            <button onClick={handleClick} type="button" className="top-buttons">&plusmn;</button>
+            <button onClick={handleClick} type="button" className="top-buttons" value="%">%</button>
+            <button onClick={handleClick} type="button" className="top-buttons special" value="÷">÷</button>
 
-          <button onClick={handleClick} type="button" className="number" value="7">7</button>
-          <button onClick={handleClick} type="button" className="number" value="8">8</button>
-          <button onClick={handleClick} type="button" className="number" value="9">9</button>
-          <button onClick={handleClick} type="button" className="multiplication-sign special" value="x">x</button>
+            <button onClick={handleClick} type="button" className="number top-buttons" value="7">7</button>
+            <button onClick={handleClick} type="button" className="number top-buttons" value="8">8</button>
+            <button onClick={handleClick} type="button" className="number top-buttons" value="9">9</button>
+            <button onClick={handleClick} type="button" className="multiplication-sign special top-buttons" value="x">x</button>
 
-          <button onClick={handleClick} type="button" className="number" value="4">4</button>
-          <button onClick={handleClick} type="button" className="number" value="5">5</button>
-          <button onClick={handleClick} type="button" className="number" value="6">6</button>
+            <button onClick={handleClick} type="button" className="number top-buttons" value="4">4</button>
+            <button onClick={handleClick} type="button" className="number top-buttons" value="5">5</button>
+            <button onClick={handleClick} type="button" className="number top-buttons" value="6">6</button>
 
-          <button onClick={handleClick} type="button" className="subtraction-sign special" value="-">-</button>
-          <button onClick={handleClick} type="button" className="number" value="1">1</button>
-          <button onClick={handleClick} type="button" className="number" value="2">2</button>
-          <button onClick={handleClick} type="button" className="number" value="3">3</button>
-          <button onClick={handleClick} type="button" className="addition-sign special" value="+">+</button>
+            <button onClick={handleClick} type="button" className="subtraction-sign special top-buttons" value="-">-</button>
+            <button onClick={handleClick} type="button" className="number top-buttons" value="1">1</button>
+            <button onClick={handleClick} type="button" className="number top-buttons" value="2">2</button>
+            <button onClick={handleClick} type="button" className="number top-buttons" value="3">3</button>
+            <button onClick={handleClick} type="button" className="addition-sign special top-buttons" value="+">+</button>
 
-          <button onClick={handleClick} type="button" className="number-span" value="0">0</button>
-          <button onClick={handleClick} type="button" className="addition-sign special" value="=">=</button>
+            <button onClick={handleClick} type="button" className="number-span top-buttons" value="0">0</button>
+            <button onClick={handleClick} type="button" className="addition-sign special top-buttons" value="=">=</button>
+          </div>
         </div>
       </div>
     </div>
