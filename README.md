@@ -14,7 +14,7 @@ Math Magician
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[https://mathematics-app.netlify.app/](https://mathematics-app.netlify.app/S)
 
 To get a local copy up and running follow these simple example steps.
 
